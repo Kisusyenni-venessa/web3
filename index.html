@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<title>Under Sea Animation</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- Section -->
+	<main>
+		<div id="particles">
+			<div class="header">
+				<h1>
+					Welcome to Under The Sea
+				</h1>
+			</div>
+			<img src="images/fish-1.png" class="fish fish1">
+			<img src="images/fish-2.png" class="fish fish2">
+			<img src="images/fish-3.png" class="fish fish3">
+			<img src="images/fish-4.png" class="fish fish4">
+			<img src="images/fish-5.png" class="fish fish5">
+			<img src="images/fish-6.png" class="fish fish6">
+			<img src="images/fish-6flip.png" class="fish fish7">
+			<img src="images/scuba-diver.png" class="fish diver">
+			<img src="images/background.png" class="background">
+		</div>
+		<script src="particles.js" type="text/javascript"></script>
+		<script src="app.js" type="text/javascript"></script>
+		<script src="animate.css"></script>
+	</main>
+<!-- End of Section -->
+
+<!------- About ---------->
+<!-- Clown Fish -->
+<section>
+	<div class="card mb-3 clownfish" style="max-width: 1200px;" data-animate-scroll='{"x": "-200","y": "0", "alpha": "0", "duration": ".5"}'>
+		<div class="row no-gutters">
+		    <div class="col-md-4">
+		    <img src="images/clown-fish.jpg" class="card-img" alt="Clown Fish">
+		    </div>
+		    <div class="col-md-8">
+		    	<div class="card-body">
+			    	<h5 class="card-title">Clown Fish</h5>
+					<p class="card-text">Clownfish or anemonefish are fishes from the subfamily Amphiprioninae in the family Pomacentridae. Thirty species are recognized: one in the genus Premnas, while the remaining are in the genus Amphiprion. In the wild, they all form symbiotic mutualisms with sea anemones. Depending on species, anemonefish are overall yellow, orange, or a reddish or blackish color, and many show white bars or patches. The largest can reach a length of 17 cm (6.7 in)... </p>
+					<a href="https://en.wikipedia.org/wiki/Amphiprioninae" class="float-right" target="_blank"><button type="button" class="btn btn-primary">Read More</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!-- Manta Ray -->
+	<div class="card mb-3" style="max-width: 1200px;"data-animate-scroll='{"x": "200","y": "0", "alpha": "0", "duration": ".5"}'>
+		<div class="row no-gutters">
+		    <div class="col-md-4">
+		    	<img src="images/manta-ray.jpg" class="card-img" alt="Manta Ray">
+			</div>
+			<div class="col-md-8">
+			    <div class="card-body">
+					<h5 class="card-title">Manta Ray</h5>
+					<p class="card-text">Manta rays are large rays belonging to the genus Manta. The larger species, M. birostris, reaches 7 m (23 ft) in width, while the smaller, M. alfredi, reaches 5.5 m (18 ft 1 in). Both have triangular pectoral fins, horn-shaped cephalic fins and large, forward-facing mouths. They are classified among the Myliobatiformes (stingrays and relatives) and are placed in the family Myliobatidae (eagle rays).Mantas are found in warm temperate, subtropical and tropical waters... </p>
+				    <a href="https://en.wikipedia.org/wiki/Manta_ray" class="float-right" target="_blank"><button type="button" class="btn btn-primary">Read More</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Sea Horse -->
+	<div class="card mb-3 seahorse" style="max-width: 1200px;"data-animate-scroll='{"x": "-200","y": "0", "alpha": "0", "duration": ".5"}'>
+		<div class="row no-gutters">
+			<div class="col-md-4">
+				<img src="images/seahorse.jpg" class="card-img" alt="Seahorse">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">Seahorse</h5>
+					<p class="card-text">Seahorse (also written sea-horse and sea horse) is the name given to 45 species of small marine fish in the genus Hippocampus. "Hippocampus" comes from the Ancient Greek hippokampos (ἱππόκαμπος hippókampos), itself from hippos (ἵππος híppos) meaning "horse" and kampos (κάμπος kámpos) meaning "sea monster".Having a head and neck suggestive of a horse, seahorses also feature segmented bony armour, an upright posture and a curled prehensile tail... </p>
+					<a href="https://en.wikipedia.org/wiki/Seahorse" class="float-right" target="_blank"><button type="button" class="btn btn-primary">Read More</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!-- Script -->
+		<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+		<script src ="TweenMax.js"></script>
+		<script src="ScrollToPlugin.js"></script>
+		<script src="EaselPlugin.js"></script>
+		<script src="animate-scroll.js"></script>
+		<script type="text/javascript">
+			$(document).animateScroll();  
+		</script>
+
+</section>
+
+<!-- Script -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- Footer -->
+
+<footer>
+	Wildlife<br>&copy;Laragon Team UIB
+</footer>
+
+</body>
+</html>
